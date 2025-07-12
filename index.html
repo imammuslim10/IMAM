@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h4>Penjelasan Kode Program Widget</h4>
+  <link rel="stylesheet" href="style.css">
+
+  <nav>
+    <p1>Tujuan program widget dalam konteks pemrograman GUI (Graphical User Interface), seperti yang digunakan pada framework Kivy</p1>
+  </nav>
+
+  <main>
+    <section id="widget">
+      <h2>Tugas Pemograman Mobile | IMAM MUSLIM</h2>
+      <img src="widget.jpg" alt="widget" class="pet-image">
+      <p></p>Penjelasan Baris Kode</p>
+
+</p>`from kivy.uix.label import Label  : Mengimpor komponen **Label** dari Kivy, digunakan untuk menampilkan teks.          
+<p>`from kivy.uix.button import Button : Mengimpor komponen **Button**, digunakan untuk membuat tombol.                     
+<p>`from kivy.uix.widget import Widget : Mengimpor **Widget dasar**, yaitu kontainer untuk komponen lain.                   
+<p>`from kivy.app import App           : **WAJIB** untuk menjalankan aplikasi Kivy, kelas utama harus turunan dari `App`.   
+<p>`class MyApp(App)                   : Mendefinisikan kelas utama aplikasi yang mewarisi dari `App`.                      
+<p>`def build(self)                    : Fungsi ini digunakan untuk membangun tampilan awal saat aplikasi dijalankan.       
+<p>`wdg = Widget()                     : Membuat kontainer utama tempat label dan tombol akan ditempatkan.                  
+<p>`lbl = Label(...)                   : Membuat label teks dengan tulisan `'wanDinulAqil'` dan posisi `(200, 0)` di layar. 
+<p>`btn = Button(...)                  : Membuat tombol dengan teks `'2011042'`, posisi default (0,0).                      
+<p>`add_widget(...)                     : Menambahkan label dan tombol ke dalam widget utama `wdg`.
+<p>`return wdg                         : Mengembalikan tampilan utama yang akan ditampilkan di layar.
+<p>`MyApp().run()                      : Menjalankan aplikasi. Ini akan memanggil `build()` dan menampilkan hasilnya.
+</section>
